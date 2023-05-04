@@ -15,7 +15,7 @@ const PlayerImage = () => {
   const downloadImage = useCallback(async () => {
     setLoading(true);
 
-    const canvas = createCanvas(800, 520);
+    const canvas = createCanvas(720, 520);
     const ctx = canvas.getContext("2d");
 
     const background = await loadImage(bg_template);
